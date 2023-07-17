@@ -64,7 +64,8 @@ nav ul li {
 }
 
 .imgBox {
-    display: none;
+    width: 0;
+    transition: width 1s ease-in-out;
 }
 
 .infoDiv  {
