@@ -1,3 +1,4 @@
+//Game Written In Pure JS
 //Initializing Some Variables
 const music = new Audio("/assets/music.mp3")
 const ting = new Audio("/assets/ting.mp3")
