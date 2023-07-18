@@ -42,6 +42,7 @@ nav ul li {
 }
 .container {
     display: grid;
+    position: relative;
     grid-template-columns: repeat(3,10vw);
     grid-template-rows: repeat(3,10vw);
     font-family: 'Roboto','sans-serif';
@@ -83,6 +84,14 @@ nav ul li {
     height: 40px;
     cursor: pointer;
 }
+.line {
+    background-color: black;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background-color: pink;
+    transition: width 1s ease-in-out;
+}
 
 .br-l {
     border-left: 0;
@@ -116,15 +125,17 @@ nav ul li {
     }
     .container {
         display: grid;
-        grid-template-columns: repeat(3,10vw);
         height: 200px;
-        grid-template-rows: repeat(3,10vw);
+        grid-template-columns: repeat(3,20vw);
+        text-align: center;
+        grid-template-rows: repeat(3,20VW); 
         font-family: 'Roboto','sans-serif';
         justify-content: center;
     }
     .gameInfo {
         font-family: 'Baloo Bhaina 2', cursive;
         padding: 0 34px;
+        margin-top: 50px;
         text-align: center;
     }
     
